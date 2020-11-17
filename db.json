@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "GetWorkOrderList": [
+    {
+      "OrderDetailsId": 1,
+      "workorder": "GPRV1001",
+      "site": "PRV",
+      "plant": "PRV5",
+      "unit": 5,
+      "subunit": 53,
+      "description": "Description",
+      "status": "BAPPR"
+    }
+  ],
+  "PLANT_IDS": [
+    {
+      "id": "5-2"
+    },
+    {
+      "id": "5-3"
+    },
+    {
+      "id": "5-ST"
+    },
+    {
+      "id": "Other"
+    }
+  ]
+
+}
